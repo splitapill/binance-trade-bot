@@ -1,3 +1,21 @@
+sudo nano /etc/sysctl.conf
+
+add this
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.ipv6.conf.lo.disable_ipv6 = 1
+
+
+then run
+sudo sysctl -p
+
+
+
+https://raspberrypi.stackexchange.com/questions/23884/force-ipv4-address
+
+
+
+
 # binance-trade-bot
 
 ![github](https://img.shields.io/github/workflow/status/edeng23/binance-trade-bot/binance-trade-bot)
