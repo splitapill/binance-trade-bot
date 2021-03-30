@@ -1,0 +1,12 @@
+default with US
+
+ADA
+ATOM
+BAT
+DOGE
+ETC
+NEO
+ONT
+QTUM
+VET
+XLM
